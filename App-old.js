@@ -5,19 +5,21 @@
  *      </div>
  * </div>
  */
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement('div',
     {
-        id: 'parent'
+        id: 'parent',
     },
     React.createElement('div',
         { 
             id: 'child'
         },
         [
-            React.createElement('h1', {}, 'Hello from h1 tag'),
-            React.createElement('h2', {}, 'Hello from h2 tag')
+            React.createElement('h1', { key: 0}, 'Hello from react 🚀 ᓚᘏᗢ 🐈'),
+            React.createElement('h2', { key: 1}, 'Hello from react 😊 (❁´◡`❁)'),
+            React.createElement('h3', {key:2}, 'Hello from react 🌷 (•_•)')
         ]
     )
 );

@@ -1,0 +1,33 @@
+{
+  "name": "react-dev",
+  "version": "1.0.0",
+  "description": "Experimenting and learning react",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaitali1125/react-devspace.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Chaitali Shinde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaitali1125/react-devspace/issues"
+  },
+  "homepage": "https://github.com/Chaitali1125/react-devspace#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
