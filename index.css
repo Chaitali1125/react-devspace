@@ -1,54 +1,8 @@
-h1,
-h2 {
-  color: gray;
-}
+@import "tailwindcss";
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid rgb(233, 231, 231);
-  border-radius: 2px;
-}
-
-.nav-items > ul {
-  display: flex;
-}
-
-.nav-items > ul > li {
-  font-size: large;
-  padding: 0px 20px;
-  list-style-type: none;
-}
-
-.food-container {
-  border: 1px solid #e9e7e7;
-  width: 160px;
-  /* margin: auto 5.4px; */
-  border-radius: 3px;
-  padding: 9px;
-  /* display: flex;
-  gap: 1; */
-}
-
-.food-container > div {
-  position: relative;
-  width: 100%;
-  /* height: 100%; */
-  border-radius: 16px;
+.cuisines {
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
-}
-
-.food-container > div > img {
-  width: 100%;
-  /* height: 100%; */
-  object-fit: cover;
-  border-radius: 16px;
-}
-
-.body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 25px;
+  display: -webkit-box;
 }
